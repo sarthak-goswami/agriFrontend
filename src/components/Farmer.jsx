@@ -6,7 +6,7 @@ import Weather from "./Farmer/Weather";
 export default function Farmer(){
     return (
         
-        <div className="flex flex-col bg-gray-100 justify-between w-100%">
+        <div className="flex flex-col bg-white justify-between w-100%">
             <h1>Farmer Dashboard</h1>
             <div className="flex flex-col gap-7">
                 <Stats/>
