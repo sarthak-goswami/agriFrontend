@@ -5,12 +5,12 @@ export default function Stats(){
     const [cropHealth,setCropHealth] = useState(70);
     const [waterLevel,setWaterLevel] = useState(50);
     const [soilMoisture,setSoilMoisture]= useState(80);
-    const [temperature,setTemperater]= useState(25);
+    const [temperature,setTemperature]= useState(25);
 
     return (
         <>
         <div className="flex justify-between h-45">
-            <div className="max-w-sm w-1/4 p-4 rounded-2xl shadow bg-white border-l-4 border-green-500">
+            <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-green-500">
                 <h1>Crop health</h1>
                 
                 <p>{cropHealth}%</p>
@@ -21,7 +21,7 @@ export default function Stats(){
                 ></div>
                 </div>
             </div>
-            <div className="max-w-sm w-1/4 p-4 rounded-2xl shadow bg-white border-l-4 border-blue-500">
+            <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-blue-500">
                 <h1>Water Level</h1>
                 
                 <p>{waterLevel}%</p>
@@ -32,7 +32,7 @@ export default function Stats(){
                 ></div>
                 </div>
             </div>
-            <div className="max-w-sm w-1/4 p-4 rounded-2xl shadow bg-white border-l-4 border-red-900">
+            <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-red-900">
                 <h1>Soil Moisture</h1>
                 
                 <p>{soilMoisture}%</p>
@@ -43,7 +43,7 @@ export default function Stats(){
                 ></div>
                 </div>
             </div>
-            <div className="max-w-sm w-1/4 p-4 rounded-2xl shadow bg-white border-l-4 border-orange-400">
+            <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-orange-400">
                 <h1>Temperature</h1>
                 
                 <p>{temperature} C</p>
