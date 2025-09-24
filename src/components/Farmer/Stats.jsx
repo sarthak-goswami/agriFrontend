@@ -9,9 +9,9 @@ export default function Stats(){
 
     return (
         <>
-        <div className="flex justify-between h-45">
+        <div className="flex justify-between m-5 mt-0 mb-0 h-45">
             <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-green-500 transition-transform duration-300 hover:scale-105">
-                <h1>Crop health</h1>
+                <h1 className="text-xl font-semibold">Crop health</h1>
                 
                 <p>{cropHealth}%</p>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mt-3">
@@ -22,7 +22,7 @@ export default function Stats(){
                 </div>
             </div>
             <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-blue-500 transition-transform duration-300 hover:scale-105">
-                <h1>Water Level</h1>
+                <h1 className="text-xl font-semibold">Water Level</h1>
                 
                 <p>{waterLevel}%</p>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mt-3">
@@ -33,7 +33,7 @@ export default function Stats(){
                 </div>
             </div>
             <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-red-900 transition-transform duration-300 hover:scale-105">
-                <h1>Soil Moisture</h1>
+                <h1 className="text-xl font-semibold">Soil Moisture</h1>
                 
                 <p>{soilMoisture}%</p>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mt-3">
@@ -44,7 +44,7 @@ export default function Stats(){
                 </div>
             </div>
             <div className="max-w-sm w-3/13 p-4 rounded-2xl shadow-xl bg-white border-l-4 border-orange-400 transition-transform duration-300 hover:scale-105">
-                <h1>Temperature</h1>
+                <h1 className="text-xl font-semibold">Temperature</h1>
                 
                 <p>{temperature} C</p>
             </div>
